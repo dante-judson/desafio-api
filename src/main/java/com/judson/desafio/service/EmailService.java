@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmailService {
 
-	@Value("${appEmail}")
+	@Value("${spring.mail.username}")
 	private String appEmail;
 	
 	@Autowired
